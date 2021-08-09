@@ -17,9 +17,11 @@
     "discord-player": "^5.0.1",
     "discord-prefix": "^2.0.0",
     "discord.js": "^13.0.1",
-    "dotenv": "^10.0.0",
-    "@discordjs/opus": "^0.3.3",
+    "@discordjs/opus": "^0.5.3",
     "ffmpeg-static": "^4.2.7"
+  },
+  "engines": {
+    "node": "16.x"
   },
   "devDependencies": {
     "nodemon": "^2.0.12",
