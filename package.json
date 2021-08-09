@@ -1,0 +1,28 @@
+{
+  "name": "discord-bot",
+  "version": "0.1.0",
+  "description": "a shitty discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo tested",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord.js"
+  ],
+  "author": "MinhCrafters",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.4.3",
+    "discord-player": "^5.0.1",
+    "discord-prefix": "^2.0.0",
+    "discord.js": "^13.0.1",
+    "dotenv": "^10.0.0",
+    "@discordjs/opus": "^0.3.3",
+    "ffmpeg-static": "^4.2.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "eslint": "^7.32.0"
+  }
+}
